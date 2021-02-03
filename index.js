@@ -38,14 +38,14 @@ try {
    ///Template strings ///
 
   
-/*	
+
 	
    (function UseTemplateStrings1() {
 		const who = 'World';
 		const addOne = x => x + 1;
 		
 		// Rewrite the line below to use template literals.
-		const greeting = 'Hello {who}! {addOne(2)} times.';
+		const greeting = `Hello ${who}! ${addOne(2)} times.`;
 
 		// Don't make changes below this line	
 		
@@ -54,7 +54,7 @@ try {
 		solved++;
 	})();
 
-*/
+
 
   /// functions default parameters ///
 
@@ -305,7 +305,7 @@ try {
 	})();
 	
 
-  /*
+  
 	(function UseObjectSpreadProperties2() {
 		let obj1 = { a: 100, b: 2, c: 300 };
 		let obj2 = { b: 0, d: 100, e: 200};
@@ -315,7 +315,7 @@ try {
 		// - Do NOT use Object.assign()
 		// - Do use object spread properties
 		// - Think about the order!
-		let result = { obj1, obj2, obj3 };
+		let result = { ...obj1, ...obj3, ...obj2 };
 
 		// Don't make changes below this line	
 		
@@ -327,7 +327,7 @@ try {
 
 		solved++;
 	})();
-	*/
+	
 
   ////// BONUS //////
 
